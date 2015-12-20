@@ -3,66 +3,89 @@
 <head>
     <meta charset="UTF-8">
     <title>Comverse</title>
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="description" content="Comverse website">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
     <header>
-        <img src="#" alt="Comverse Logo">
-        <nav>
-            <ul>
-                <li><a href="#">YOUR NEEDS</a></li>
-                <li><a href="#">OUR PORTFOLIO</a></li>
-                <li><a href="#">NEWS & MEDIA</a></li>
-                <li><a href="#">ABOUT COMVERSE</a></li>
+        <div class="content-wrapper">
+            <ul class="login-list">
+                <li class="login-list-item">
+                    <select name="language" id="lang" class="language-menu">
+                        <option value="English">EN</option>
+                        <option value="עברית">ע</option>
+                    </select>
+                </li>
+                <li class="login-list-item last-li"><a href="#">Costumer login</a></li>
             </ul>
-        </nav>
-        <input id="search1" type="search"/>
-        <label for="search1">
-            <img src="#" alt="search">
-        </label>
-        <ul>
-            <li>
-                <select name="language" id="lang">
-                    <option value="English">EN</option>
-                    <option value="עברית">ע</option>
-                </select>
-            </li>
-            <li><a href="#">Costumer login</a></li>
-        </ul>
+            <a class="logo" href="">
+                <img src="img/comverse-logo.png" alt="Comverse Logo">
+            </a>
+            <nav>
+                <ul>
+                    <li class="main-nav"><a href="#">YOUR NEEDS</a></li>
+                    <li class="main-nav"><a href="#">OUR PORTFOLIO</a></li>
+                    <li class="main-nav"><a href="#">NEWS & MEDIA</a></li>
+                    <li class="main-nav last-li"><a href="#">ABOUT COMVERSE</a></li>
+                </ul>
+            </nav>
+            <form action="" title="form" class="search-form">
+                <input id="search" type="search" class="search-line"/>
+                <input type="submit" name="submit" value="" class="submit-button"/>
+            </form>
+        </div>
     </header>
     <main>
-        <h2>Free Your Markets From IT Complexity</h2>
-        <p>Comverse Policy Studio 1st Ever Marketing-Oriented Policy Tool</p>
-        <button>
-            learn more
-            <img src="#" alt="learn_more">
-        </button>
-        <article>
-            <p>
-                Comverse Is Value-Added Service Global Market Leader.
-            </p>
-            <a>
-                <img src="#" alt="Read More">
-                Read More
-            </a>
-        </article>
-        <article>
-            <p>
-                Managed Services World Congress September 18-19 Berlin, Germany.
-            </p>
-            <a>
-                <img src="#" alt="Read More">
-                Read More
-            </a>
-        </article>
-        <article>
-            <p>
-                Comverse: Enabling a world of Connected Possibilities.
-            </p>
-            <a>
-                <img src="#" alt="Watch Now">
-                Read More
-            </a>
-        </article>
+        <div class="content-wrapper">
+            <div class="slides">
+                <h1 class="lighter"><span class="bold">Free</span> Your Markets From IT <span class="bold">Complexity</span></h1>
+                <p>Comverse Policy Studio<br><span class="bold">1st</span> Ever Marketing-Oriented Policy Tool</p>
+                <button class="btn-learn-more">learn more</button>
+                <ul class="bullets">
+                    <li class="slide-buttons active-slide-button"><a href=""></a></li>
+                    <li class="slide-buttons"><a href=""></a></li>
+                    <li class="slide-buttons"><a href=""></a></li>
+                    <li class="slide-buttons"><a href=""></a></li>
+                </ul>
+            </div>
+            <ul class="cards">
+                <li>
+                    <article class="featured-box pink-bg">
+                        <p>
+                            Comverse Is Value-Added Service Global Market Leader.
+                        </p>
+                        <a href="#" class="read-more-text">
+                            <img src="img/link-icon.png" alt="Read More" class="read-more-icon">
+                            Read More
+                        </a>
+                    </article>
+                </li>
+                <li>
+                    <article class="featured-box green-bg">
+                        <p>
+                            Managed Services World Congress September 18-19 Berlin, Germany.
+                        </p>
+                        <a href="#" class="read-more-text">
+                            <img src="img/file-icon.png" alt="Read More" class="read-more-icon">
+                            Read More
+                        </a>
+                    </article>
+                </li>
+                <li>
+                    <article class="featured-box orange-bg">
+                        <p>
+                            Comverse: Enabling a world of Connected Possibilities.
+                        </p>
+                        <a href="#" class="read-more-text">
+                            <img src="img/play-icon.png" alt="Watch Now" class="read-more-icon">
+                            Watch Now
+                        </a>
+                    </article>
+                </li>
+            </ul>
+        </div>
     </main>
     <section>
         <h2>WHAT CAN WE DO FOR YOU?</h2>
@@ -81,7 +104,7 @@
                 (OTT)
             </a></li>
             <li><a href="#">
-                <img src=#" alt="Cloud logo">
+                <img src="#" alt="Cloud logo">
                 Cloud computing
             </a></li>
             <li><a href="#">

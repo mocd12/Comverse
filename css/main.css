@@ -1,0 +1,250 @@
+article, aside, footer, main, section, form, ul {
+    display: block;
+}
+
+
+.content-wrapper {
+    width: 950px;
+    margin: 0 auto;
+    padding: 10px 0 0 0;
+}
+
+.logo {
+    float: left;
+    display: inline-block;
+    height: 62px;
+    width: 185px;
+}
+
+.main-nav{
+    text-transform: uppercase;
+    list-style-type: none;
+    float: left;
+    width: auto;
+    background: white url(../img/divider.png) right center no-repeat;
+    padding: 0 10px 0 10px;
+}
+
+.login-list-item{
+    list-style-type: none;
+    float: left;
+    background: white url(../img/divider.png) right center no-repeat;
+    padding: 0 10px 0 10px;
+}
+
+.login-list{
+    display: block;
+    float: right;
+    margin-top: auto;
+}
+
+.search-form{
+    border: 1px solid #d2d2d2;
+    border-radius: 6px;
+    float: right;
+    margin-top: 7px;
+}
+
+.search-line{
+    width:  120px;
+    height: 20px;
+    border: none;
+    margin: 0 5px 0 5px;
+    border-radius: 6px;
+    background: white url(../img/divider.png) right center no-repeat;
+    outline: none;
+    vertical-align: bottom;
+}
+
+.submit-button {
+    background: white url(../img/searchBtn.png) right center no-repeat;
+    border: none;
+    margin-right: 8px;
+    padding-top: 5px;
+    outline: none;
+    cursor: pointer;
+}
+
+.last-li {
+    background: none !important;
+}
+
+.language-menu{
+    width: 48px;
+    border: none;
+    color: #585951;
+    padding: 0;
+}
+
+.lighter
+{
+    font-weight: lighter;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.slides{
+    height: 240px;
+    width: 420px;
+    padding: 10px 0 10px 0;
+    font-family: Verdana, Geneva, sans-serif;
+    color: white;
+}
+
+.bullets, .cards{
+    padding-left: 0;
+}
+
+.slide-buttons{
+    display: inline-block;
+    list-style-type: none;
+    float: left;
+    width: 10px;
+    height: 10px;
+    background-color: #e0e0e0;
+    border-radius: 2px;
+    margin-right: 8px;
+    box-shadow: 0 1px 3px 0 grey;
+}
+
+.active-slide-button{
+    background-color: #2E94C8 !important;
+}
+
+.btn-learn-more{
+    text-transform: uppercase;
+    background: url(../img/btnArrow.png) right 15px center no-repeat, linear-gradient(to bottom, #2e94c8 , #1188c4);
+    height: 36px;
+    width: 180px;
+    padding: 10px;
+    border: none;
+    text-align: left;
+    border-radius: 6px;
+    color: white;
+    box-shadow: 0 1px 3px 0 grey;
+}
+
+.cards>li , .services-list>li{
+    display: inline-block;
+    list-style-type: none;
+}
+
+.featured-box{
+    float: left;
+    width: 256px;
+    height: 7em;
+    padding: 20px 15px 20px 15px;
+    margin-right: 27px;
+    border-radius: 6px;
+    list-style-type: none;
+    box-shadow: 0 1px 3px 0 grey;
+    font-size: 1.3em;
+    color: white;
+}
+
+.pink-bg {
+    background-color: rgba(251, 66, 158, 0.9);
+}
+
+.pink-bg:hover {
+    background-color: rgba(251, 66, 158, 1);
+}
+
+.green-bg {
+    background-color: rgba(106, 192, 50, 0.9);
+}
+
+.green-bg:hover {
+    background-color: rgba(106, 192, 50, 1);
+}
+
+.orange-bg {
+    background-color: rgba(255, 117, 24, 0.9);
+}
+
+.orange-bg:hover {
+    background-color: rgba(255, 117, 24, 1);
+}
+
+.read-more-icon{
+    vertical-align: middle;
+}
+
+.read-more-text{
+    font-size: 0.7em;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+}
+
+.services-section {
+    background: url(../img/weDoBG.png) repeat scroll 0 0, radial-gradient(ellipse at center, #59bedb 0%,#3399cc 100%);
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+    padding: 0 0 60px;
+    box-shadow: inset 0 1px 3px 0 grey;
+}
+
+.services-section h2 {
+    text-align: center;
+    font-size: 2.5em;
+    font-weight: lighter;
+}
+
+.services-list{
+    display: block;
+    list-style-type: none;
+    float: left;
+    padding: 0;
+}
+
+.services-list > li > a{
+    color: white;
+    display: block;
+    font-size: 0.8em;
+    width: 12em;
+}
+
+.service-list > li {
+    display: inline-block;
+}
+
+body{
+    font-family: Helvetica, Arial, Sans-Serif;
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    background: url(../img/slide-bg-complexity.jpg) no-repeat center center fixed;
+    background-size: cover;
+    min-height: 550px;
+}
+
+header{
+    font-family: Helvetica, Arial, Sans-Serif;
+    font-size: 13px;
+    background-color: white;
+    padding: 0 0 10px 0;
+    box-shadow: 0 1px 2px 0 grey;
+    width: 100%;
+}
+
+nav{
+    display: inline-block;
+    margin-right: 2em;
+}
+
+
+li{
+    display: list-item;
+}
+
+li>a{
+    text-decoration: none;
+    color: black;
+}
