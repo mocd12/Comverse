@@ -193,10 +193,10 @@ article, aside, footer, main, section, form, ul {
     font-size: 0.9em;
     text-transform: none;
     margin-top: 1em;
-
+    box-shadow: inset 0 1px 3px 0 grey;
 }
 
-.services-list{
+.services-list, .news-list, .events-list{
     display: block;
     list-style-type: none;
     padding: 0;
@@ -218,13 +218,179 @@ article, aside, footer, main, section, form, ul {
     margin:0;
 }
 
+.data-monetization{
+    display: block;
+    background: transparent url(../img/data-monetization.png) no-repeat center bottom;
+    height: 62px;
+    width: 130px;
+}
+
+.data-monetization:hover{
+    background: transparent url(../img/data-monetization-hover.png) no-repeat center bottom;
+}
+
+.robot{
+    display: block;
+    background: transparent url(../img/robot-icon.png) no-repeat center bottom;
+    height: 82px;
+    width: 130px;
+}
+
+.robot:hover{
+    background: transparent url(../img/robot-icon-hover.png) no-repeat center bottom;
+}
+
+.flag{
+    display: block;
+    background: transparent url(../img/flag-icon.png) no-repeat center bottom;
+    height: 88px;
+    width: 130px;
+}
+
+.flag:hover{
+    background: transparent url(../img/flag-icon-hover.png) no-repeat center bottom;
+}
+
+.cloud{
+    display: block;
+    background: transparent url(../img/cloud-icon.png) no-repeat center bottom;
+    height: 74px;
+    width: 130px;
+}
+
+.cloud:hover{
+    background: transparent url(../img/cloud-icon-hover.png) no-repeat center bottom;
+}
+
+.managed{
+    display: block;
+    background: transparent url(../img/managed-services.png) no-repeat center bottom;
+    height: 92px;
+    width: 130px;
+}
+
+.managed:hover{
+    background: transparent url(../img/managed-services-hover.png) no-repeat center bottom;
+}
+
+.social{
+    display: block;
+    background: transparent url(../img/social-icon.png) no-repeat center bottom;
+    height: 66px;
+    width: 130px;
+}
+
+.social:hover{
+    background: transparent url(../img/social-icon-hover.png) no-repeat center bottom;
+}
+
 .happening-section {
     background: url(../img/news-and-events-bg.jpg) no-repeat center center fixed;
     background-size: cover;
     font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
     color: white;
     height: 420px;
-    box-shadow: none;
+    box-shadow: inset 0 1px 3px 0 grey;
+}
+
+.happening-section h3 {
+    font-weight: lighter;
+}
+
+.news, .events {
+    display: inline-block;
+    float: left;
+    font-size: 1.8em;
+}
+
+.news-box, .events-box{
+    float: left;
+    margin-right: 20px;
+    padding: 0;
+    font-size: 0.5em;
+    background: rgba(221, 211, 203, 0.6);
+    width: 296px;
+    height: 120px;
+    border-radius: 3px;
+}
+
+.news-box p, .events-box p{
+    width: 14em;
+    color: #000;
+    margin-left: 6em;
+    margin-bottom: 3em;
+    font-weight: 100;
+}
+
+.news-list, .events-list{
+    margin-top: -25px;
+}
+
+.date {
+    font-size: 2.9em;
+    float: left;
+    width: 70px;
+    height: 100px;
+    background: rgb(51, 153, 204);
+    border-radius: 1px;
+    margin: -5px 0 0 11px;
+    box-shadow: 0 1px 4px 0 grey;
+}
+
+.day{
+    text-transform: uppercase;
+    text-align: center;
+    border-bottom: 1px dotted;
+}
+
+.month{
+    font-size: 0.5em;
+    text-transform: uppercase;
+    margin-bottom: 10em;
+    text-align: center;
+}
+
+.calendar {
+    font-size: 0.8em;
+    display: inline-block;
+    color: #FFF;
+}
+
+.calendar::before{
+    content: url(../img/eventListIconEvents.png);
+    vertical-align: sub;
+    padding: 4px;
+}
+
+.calendar:hover, .newspaper:hover {
+    color: #000;
+}
+
+.calendar:hover::before{
+    content: url(../img/eventListIconEvents_hover.png);
+    vertical-align: sub;
+}
+
+.newspaper {
+    font-size: 0.8em;
+    display: inline-block;
+    color: #FFF;
+}
+
+.newspaper::before{
+    content: url(../img/eventListIconNews.png);
+    vertical-align: sub;
+    padding: 4px;
+}
+
+.newspaper:hover::before{
+    content: url(../img/eventListIconNews_hover.png);
+    vertical-align: sub;
+}
+
+.news-box:hover, .events-box:hover{
+    background: rgba(221, 211, 203, 0.9);
+    cursor: pointer;
 }
 
 body{
@@ -237,11 +403,7 @@ main{
     background: url(../img/slide-bg-complexity.jpg) no-repeat center center fixed;
     background-size: cover;
     min-height: 550px;
-    box-shadow: inset 0 1px 3px 0 grey;
-}
-
-section{
-    box-shadow: inset 0 1px 3px 0 grey;
+    box-shadow: 0 1px 2px 0 grey;
 }
 
 header{
