@@ -394,7 +394,7 @@ article, aside, footer, main, section, form, ul {
 }
 
 body{
-    font-family: Helvetica, Arial, Sans-Serif;
+    font-family: "Helvetica", "Arial", Sans-Serif;
     margin: 0;
     padding: 0;
 }
