@@ -16,6 +16,7 @@ article, aside, footer, main, section, form, ul {
     width: 185px;
 }
 
+/*Navigation Bar*/
 .main-nav{
     text-transform: uppercase;
     list-style-type: none;
@@ -85,6 +86,7 @@ article, aside, footer, main, section, form, ul {
     font-weight: bold;
 }
 
+/*Main Section*/
 .slides{
     height: 240px;
     width: 420px;
@@ -180,6 +182,7 @@ article, aside, footer, main, section, form, ul {
     color: white;
 }
 
+/*Services Stories*/
 .services-section {
     background: url(../img/weDoBG.png) repeat scroll 0 0, radial-gradient(ellipse at center, #59bedb 0%,#3399cc 100%);
     font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
@@ -193,7 +196,6 @@ article, aside, footer, main, section, form, ul {
     font-size: 0.9em;
     text-transform: none;
     margin-top: 1em;
-    box-shadow: inset 0 1px 3px 0 grey;
 }
 
 .services-list, .news-list, .events-list{
@@ -393,6 +395,288 @@ article, aside, footer, main, section, form, ul {
     cursor: pointer;
 }
 
+/*Success Stories*/
+.success-stories {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    background: rgb(236, 236, 236);
+    height: 555px;
+    text-align: center;
+}
+
+.success-stories button{
+    text-transform: none;
+    margin-top: 1.5em;
+}
+
+.story-row{
+    float: left;
+    width: 350px;
+    margin-right: 10px;
+    text-align: left;
+}
+
+.last-row {
+    width: 230px;
+    margin-right: 0;
+}
+
+.success-story-box{
+    background: rgb(255, 255, 255);
+    padding: 18px;
+    border-radius: 2px;
+    margin: 0 0 10px 0;
+    width: auto;
+    height: 175px;
+}
+
+.story{
+    border-bottom: 1px solid rgb(221, 221, 221);
+    height: 8em;
+}
+
+.story p{
+    display: inline-block;
+    overflow: hidden;
+    float: left;
+    margin: 0;
+}
+
+.story img{
+    float: left;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.story-author h3{
+    font-size: 0.9em;
+    font-weight: normal;
+    color: #4fadde;
+    margin: 5px 0 0 0;
+}
+
+.story-author p{
+    font-size: 0.9em;
+    font-weight: normal;
+    margin: 0;
+    min-width: 10em
+}
+
+.story-author img{
+    float: right;
+    height: 1.9em;
+    margin: 5px 0 0 0;
+    -webkit-filter: grayscale(100%);
+}
+
+.companies-logos{
+    list-style-type: none;
+    margin: 0 0 3px 0;
+    padding: 0;
+    display: inline-block;
+}
+
+.company-logo:last-child{
+    margin: 0;
+}
+
+.companies-logos > li{
+    display: inline-block;
+    width: 110px;
+    height: 100px;
+    border-radius: 2px;
+    float: left;
+    margin: 0 10px 0 0;
+}
+
+.big-paragraph{
+    width: 12em;
+    font-size: 1.01em;
+}
+.small-paragraph{
+    font-size: 0.87em;
+    width: 14.5em;
+}
+
+.company-logo{
+    text-align: center;
+    -webkit-filter: grayscale(100%);
+}
+.cycle30{
+    background: white url("../img/cycle30.png") center center no-repeat;
+}
+
+.bull{
+    background: white url("../img/bull.png") center center no-repeat;
+}
+
+.gemplus{
+    background: white url("../img/gemplus.png") center center no-repeat;
+}
+
+.mtc{
+    background: white url("../img/mtc.png") center center no-repeat;
+}
+
+.cable-and-wireless{
+    background: white url("../img/cable&wireless.png") center center no-repeat;
+}
+
+.trilogy{
+    background: white url("../img/trilogy.png") center center no-repeat;
+}
+
+.tatasky{
+    background: white url("../img/tatasky.png") center center no-repeat;
+}
+
+.hp{
+    background: white url("../img/hp.png") center center no-repeat;
+}
+
+.atos{
+    background: white url("../img/atos.png") center center no-repeat;
+}
+
+/*Footer*/
+.subjects{
+    display: inline-block;
+    float: left;
+    margin-right: 60px;
+    padding-top: 10px
+}
+
+.subjects h2{
+    font-size: 1em;
+    font-weight: normal;
+}
+
+footer aside{
+    float: right;
+    width: 260px;
+    height: 320px;
+    background: rgba(221, 211, 203, 0.15);
+    color: white;
+}
+
+.subjects-list, .social-networks > ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    float: left;
+}
+
+.subjects-list a {
+    color: #FFF;
+}
+
+.copyrights{
+    display: block;
+    clear: left;
+    padding-top: 5em;
+    color: rgb(113, 113, 113);
+}
+
+.copyrights > a {
+    text-decoration: none;
+    color: rgb(113, 113, 113)
+}
+
+footer > .content-wrapper{
+    padding-top: 0;
+}
+
+aside h2 {
+    color: #4ea7d3;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 1.4em;
+}
+
+.blog-posts-date{
+    float: left;
+    margin-right: 20px;
+    text-align: center;
+}
+
+.blog-posts-day{
+    font-weight: bolder;
+    font-size: 2.9em;
+    padding-bottom: 0;
+}
+
+.blog-posts-month{
+    font-size: 1.7em;
+    text-align: center;
+    padding-top: 0;
+}
+
+.blog-posts-paragraph{
+    font-size: 1.37em;
+    padding-top: 7px;
+}
+
+.latest-blog-posts{
+    border-bottom: 1px solid rgb(106, 106, 106);
+    margin: 1em;
+}
+
+.subscribe{
+    margin: 1em;
+}
+
+.subscribe-form {
+    border: none;
+    border-radius: 2px;
+    outline: none;
+    background: white;
+}
+
+.subscribe-mail {
+    width: 67%;
+    height: 26px;
+    margin: 0;
+    padding: 0 0 0 5px;
+    border: none;
+    border-radius: 2px;
+    background: white;
+}
+
+.subscribe-submit {
+    background: linear-gradient(to bottom, #40a5d7 , #2a92c6);
+    color: white;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    height: 26px;
+    width: 30%;
+    float: right;
+}
+
+.social-networks{
+    margin: 3.3em 1em 1em 1em;
+}
+
+.social-networks li {
+    display: inline-block;
+    float: left;
+    margin-right: 10px;
+}
+
+.youtube:hover {
+    content: url(../img/socialMenuIcon-youtube_hover.png);
+}
+
+.twitter:hover {
+    content: url(../img/socialMenuIcon-twitter_hover.png);
+}
+
+.linkedin:hover {
+    content: url(../img/socialMenuIcon-linkedin_hover.png);
+}
+
+/*General*/
+
 body{
     font-family: "Helvetica", "Arial", Sans-Serif;
     margin: 0;
@@ -434,4 +718,12 @@ section h2 {
     text-align: center;
     font-size: 2.5em;
     font-weight: lighter;
+}
+
+footer{
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-size: 0.8em;
+    color: #dbdbdb;
+    background: url(../img/footer-bg.png);
+    height: 320px;
 }
