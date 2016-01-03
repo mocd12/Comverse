@@ -145,7 +145,7 @@
         width: 30px;
         height: 30px;
         text-align: center;
-        margin: 0px 10px 10px 0;
+        margin: 0 10px 10px 0;
         color: rgb(86, 86, 86);
         line-height: 30px;
     }
@@ -157,7 +157,7 @@
         border-radius: 0;
         margin: 5px 0 5px 0;
         list-style-type: none;
-        padding: 15px 0 15px 0px;
+        padding: 15px 0 15px 0;
     }
 
     .featured-box > article {
@@ -203,7 +203,7 @@
 
     .news > h3, .events > h3{
         font-size: 1em;
-        margin-bottom: 0em;
+        margin-bottom: 0;
     }
 
     .news-box, .events-box{
@@ -296,5 +296,12 @@
     
     footer img {
         height: 120%;
+    }
+
+    .back-to-top{
+        display: inline-block;
+        position: relative;
+        bottom: -2px;
+        float: right;
     }
 }

@@ -199,7 +199,7 @@ article, aside, footer, main, section, form, ul {
     margin-top: 1em;
 }
 
-.services-list, .news-list, .events-list{
+.services-list{
     display: block;
     list-style-type: none;
     padding: 0;
@@ -326,6 +326,9 @@ article, aside, footer, main, section, form, ul {
 
 .news-list, .events-list{
     margin-top: -25px;
+    display: block;
+    list-style-type: none;
+    padding: 0;
 }
 
 .date {
@@ -731,6 +734,7 @@ footer{
 
 /*Mobile*/
 .mobile-search,.mobile-search-icon, .mobile-main-nav-list, .mobile-search-form, .mobile-header-background,
-.mobile-bullets, .promotion-arrow, .mobile-footer, .mobile-logo, .mobile-menu-items, .mobile-menu, .mobile-menu-icon{
+.mobile-bullets, .promotion-arrow, .mobile-footer, .mobile-logo, .mobile-menu-items, .mobile-menu, .mobile-menu-icon,
+.back-to-top{
     display: none;
 }
