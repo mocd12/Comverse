@@ -1,0 +1,300 @@
+@media (max-width: 760px) {
+    header {
+        padding-top: 10px;
+        text-align: center;
+    }
+
+    .content-wrapper > h2 {
+        font-size: 2em;
+    }
+
+    .content-wrapper {
+        width: 100%;
+    }
+
+    .content-wrapper-mobile-main{
+        padding-top: 0;
+    }
+
+    .main-nav, .logo, .login-list, .search-form, .mobile-search, .mobile-menu, .main-nav-list, .mobile-main-nav-list,
+    .main-section-header, .bullets, .standard-footer{
+        display: none;
+    }
+
+    .mobile-logo{
+        display: inline-block;
+        text-align: center;
+        overflow: hidden;
+        position: relative;
+        clear: both;
+    }
+
+    .mobile-search-icon{
+        background: rgb(241, 241, 241);
+        display: inline-block;
+        width: 28px;
+        height: 26px;
+        border-radius: 4px;
+        padding: 8px 3px 0 3px;
+        border: 1px solid lightgrey;
+        float: right;
+        margin-right: 10px;
+        position: relative;
+    }
+
+    .mobile-search {
+        display: none;
+    }
+
+    .mobile-menu-icon{
+        background: rgb(241, 241, 241);
+        display: inline-block;
+        width: 28px;
+        height: 26px;
+        border-radius: 4px;
+        padding: 8px 3px 0 3px;
+        border: 1px solid lightgrey;
+        float: left;
+        margin-left: 10px;
+        position: relative;
+    }
+
+    #mobile-menu:checked ~ .mobile-menu-items {
+        position: absolute;
+        width: 100%;
+        display: block;
+        list-style-type: none;
+        margin: 0;
+        padding: 0 0 1em 0;
+        background-color: white;
+        font-size: 0.9em;
+        text-align: left;
+    }
+
+    .mobile-menu-items, .mobile-search-form{
+        display: none;
+    }
+
+    .mobile-nav-item {
+        padding: 15px;
+        border-bottom: 1px solid grey;
+    }
+
+    .mobile-nav-item:last-child {
+        padding: 15px 15px 5px 15px;
+        border-bottom: none;
+    }
+
+    #mobile-search:checked ~ #mobile-search-form {
+        display: block;
+        padding: 0;
+        margin: auto;
+        background-color: white;
+        font-size: 0.9em;
+        text-align: left;
+        border: 1px solid #d2d2d2;
+        border-radius: 6px;
+        width: 160px;
+    }
+
+    main{
+        padding: 0;
+        background: url(../img/slide-bg-complexity.jpg) no-repeat center center fixed;
+        background-size: cover;
+    }
+
+    .slides {
+        width: 100%;
+        font-size: 0.8em;
+        background-size: cover;
+        padding-bottom: 140px;
+        margin-top: 0;
+        padding-top: 0;
+    }
+
+    .mobile-header-background {
+        display: block;
+        padding: 1px 10px 10px 10px;
+        margin: 0 0 1em 0;
+        background: url(../img/weDoBG.png) repeat scroll 0 0, radial-gradient(ellipse at center, rgba(89, 190, 219, 0.9), rgba(51, 153, 204, 0.9));
+    }
+
+    .mobile-header-background >h1, .mobile-header-background >p {
+        max-width: 337px;
+    }
+    .mobile-learn-more, .mobile-bullets{
+        margin-left: 1em;
+        display: block;
+    }
+
+    .mobile-bullets{
+        margin-top: 150px;
+        margin-left: 1em;
+        padding-left: 0;
+        vertical-align: bottom;
+    }
+
+    .active-slide-button>a{
+        color: white !important;
+    }
+
+    .mobile-slide-buttons{
+        display: inline-block;
+        list-style-type: none;
+        float: left;
+        width: 30px;
+        height: 30px;
+        text-align: center;
+        margin: 0px 10px 10px 0;
+        color: rgb(86, 86, 86);
+        line-height: 30px;
+    }
+
+    .featured-box{
+        display: inline-block;
+        width: 100%;
+        height: 100%;
+        border-radius: 0;
+        margin: 5px 0 5px 0;
+        list-style-type: none;
+        padding: 15px 0 15px 0px;
+    }
+
+    .featured-box > article {
+        padding-left: 1em;
+
+    }
+
+    .featured-box p{
+        margin-top: 0;
+    }
+
+    .cards{
+        display: inline-block;
+    }
+
+    .promotion-arrow{
+        float: right;
+        display:inline-block;
+        vertical-align:middle;
+        margin-right: 1em;
+    }
+
+    .happening-section{
+        height: 100%;
+        text-align: center;
+        padding: 0 1em 2em 1em;
+    }
+    .news, .events{
+        float: none;
+        width: 100%;
+        margin: 0 auto;
+        padding: 0;
+        text-align: left;
+    }
+
+    .news-list, .events-list{
+        display: block;
+        list-style-type: none;
+        padding: 0;
+        margin: 0 auto;
+
+    }
+
+    .news > h3, .events > h3{
+        font-size: 1em;
+        margin-bottom: 0em;
+    }
+
+    .news-box, .events-box{
+        text-align: left;
+        margin: 0 auto 3em auto;
+        display: block;
+        padding: 1px;
+        float: none;
+        width: 100%;
+    }
+
+    .news-box:last-child, .events-box:last-child{
+        margin-bottom: 0;
+    }
+
+    .success-stories{
+        height: 100%;
+        text-align: center;
+        padding-bottom: 2em;
+    }
+
+    .last-row{
+        display:none;
+    }
+
+    .story-row{
+        float: none;
+        margin: 0 auto;
+    }
+
+    footer{
+        height: 100%
+    }
+    .mobile-footer{
+        display: block;
+    }
+
+    .mobile-footer-menu {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        text-transform: uppercase;
+    }
+
+    .mobile-footer-menu > li:last-child{
+        background: white;
+        color: black;
+        font-size: 0.8em;
+        font-weight: bold;
+        padding: 2px 0 2px 2px;
+        text-align: center;
+        border-bottom: none;
+        text-transform: none;
+    }
+
+    .mobile-footer-menu > li {
+        padding: 12px 0 12px 12px;
+        border-bottom: 1px solid black;
+        vertical-align: middle;
+        display: block;
+        width: auto;
+        height: 1.5em;
+    }
+
+    .social-networks{
+        margin: 0;
+    }
+
+    .social-networks > ul {
+        float: none;
+    }
+
+    .mobile-language-bar, option {
+        background: rgb(65, 64, 62);
+        border-radius: 2px;
+        border: none;
+        color: white;
+        margin-left: 20px;
+        padding: 2px;
+    }
+
+    option:not(:checked){
+        background: rgb(65, 64, 62);
+        border-radius: 2px;
+        border: none;
+        color: white;
+        margin-left: 20px;
+        padding: 2px;
+    }
+    
+    footer img {
+        height: 120%;
+    }
+}

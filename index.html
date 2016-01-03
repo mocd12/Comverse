@@ -7,6 +7,7 @@
     <meta name="description" content="Comverse website">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/mobile.css">
 </head>
 <body>
     <header>
@@ -23,36 +24,73 @@
             <a class="logo" href="">
                 <img src="img/comverse-logo.png" alt="Comverse Logo">
             </a>
-            <nav>
+            <a id="mobile-logo" class="mobile-logo" href="">
+                <img src="img/comverse-logo-medium.png" alt="Comverse logo"><!---->
+            </a>
+            <nav class="main-nav-list">
                 <ul>
                     <li class="main-nav"><a href="#">YOUR NEEDS</a></li>
                     <li class="main-nav"><a href="#">OUR PORTFOLIO</a></li>
-                    <li class="main-nav"><a href="#">NEWS & MEDIA</a></li>
+                    <li class="main-nav"><a href="#">NEWS &amp; MEDIA</a></li>
                     <li class="main-nav last-li"><a href="#">ABOUT COMVERSE</a></li>
                 </ul>
             </nav>
-            <form action="" title="form" class="search-form">
-                <input id="search" type="search" class="search-line"/>
+
+            <label class="mobile-menu-icon" for="mobile-menu"><img src="img/hamburger-icon.png" alt="mobile menu"></label><!---->
+            <input type="checkbox" id="mobile-menu" class="mobile-menu"><!---->
+
+            <ul class="mobile-menu-items">
+                <li class="mobile-nav-item"><a href="#">YOUR NEEDS</a></li>
+                <li class="mobile-nav-item"><a href="#">OUR PORTFOLIO</a></li>
+                <li class="mobile-nav-item"><a href="#">NEWS &amp; MEDIA</a></li>
+                <li class="mobile-nav-item last-li"><a href="#">ABOUT COMVERSE</a></li>
+            </ul>
+
+            <label class="mobile-search-icon" for="mobile-search"><img src="img/searchBtnMobile.png" alt="mobile search"></label><!---->
+            <input type="checkbox" id="mobile-search" class="mobile-search"><!---->
+
+
+            <form id ="mobile-search-form" action="" title="form" class="mobile-search-form">
+                <input type="search" class="search-line"/>
+                <input type="submit" name="submit" value="" class="submit-button"/>
+            </form>
+
+            <form id ="search-form" action="" title="form" class="search-form">
+                <input type="search" class="search-line"/>
                 <input type="submit" name="submit" value="" class="submit-button"/>
             </form>
         </div>
     </header>
     <main>
-        <div class="content-wrapper">
+        <div class="content-wrapper content-wrapper-mobile-main">
             <div class="slides">
-                <h1 class="lighter"><span class="bold">Free</span> Your Markets From IT <span class="bold">Complexity</span></h1>
-                <p>Comverse Policy Studio<br><span class="bold">1st</span> Ever Marketing-Oriented Policy Tool</p>
-                <button class="btn-learn-more">learn more</button>
+                <div class="main-section-header">
+                    <h1 class="lighter"><span class="bold">Free</span> Your Markets From IT <span class="bold">Complexity</span></h1>
+                    <p>Comverse Policy Studio<br><span class="bold">1st</span> Ever Marketing-Oriented Policy Tool</p>
+                </div>
+                <div class="mobile-header-background">
+                    <h1 class="lighter"><span class="bold">Free</span> Your Markets From IT <span class="bold">Complexity</span></h1>
+                    <p>Comverse Policy Studio<br><span class="bold">1st</span> Ever Marketing-Oriented Policy Tool</p>
+                </div>
+                <button class="btn-learn-more mobile-learn-more">learn more</button>
                 <ul class="bullets">
                     <li class="slide-buttons active-slide-button"><a href=""></a></li>
                     <li class="slide-buttons"><a href=""></a></li>
                     <li class="slide-buttons"><a href=""></a></li>
                     <li class="slide-buttons"><a href=""></a></li>
                 </ul>
+                <ul class="mobile-bullets">
+                    <li class="slide-buttons mobile-slide-buttons active-slide-button"><a href="">1</a></li>
+                    <li class="slide-buttons mobile-slide-buttons"><a href="">2</a></li>
+                    <li class="slide-buttons mobile-slide-buttons"><a href="">3</a></li>
+                    <li class="slide-buttons mobile-slide-buttons"><a href="">4</a></li>
+                </ul>
             </div>
             <ul class="cards">
-                <li>
-                    <article class="featured-box pink-bg">
+                <li class="featured-box pink-bg">
+
+                    <img src="img/promotion-item-arrow.png" alt="promotion arrow" class="promotion-arrow">
+                    <article>
                         <p>
                             Comverse Is Value-Added Service Global Market Leader.
                         </p>
@@ -62,8 +100,9 @@
                         </a>
                     </article>
                 </li>
-                <li>
-                    <article class="featured-box green-bg">
+                <li class="featured-box green-bg">
+                    <img src="img/promotion-item-arrow.png" alt="promotion arrow" class="promotion-arrow">
+                    <article>
                         <p>
                             Managed Services World Congress September 18-19 Berlin, Germany.
                         </p>
@@ -73,8 +112,9 @@
                         </a>
                     </article>
                 </li>
-                <li>
-                    <article class="featured-box orange-bg">
+                <li class="featured-box orange-bg">
+                    <img src="img/promotion-item-arrow.png" alt="promotion arrow" class="promotion-arrow">
+                    <article>
                         <p>
                             Comverse: Enabling a world of Connected Possibilities.
                         </p>
@@ -83,6 +123,7 @@
                             Watch Now
                         </a>
                     </article>
+
                 </li>
             </ul>
         </div>
@@ -233,73 +274,103 @@
     </section>
     <footer>
         <div class="content-wrapper">
-            <div class="subjects">
-                <h2>KEY SOLUTIONS</h2>
-                <ul class="subjects-list">
-                    <li><a href="#">Monetizing data</a></li>
-                    <li><a href="#">Over the Top (OTT)</a></li>
-                    <li><a href="#">Machine to Machine (M2M)</a></li>
-                    <li><a href="#">Cloud Computing</a></li>
-                    <li><a href="#">Managed Services</a></li>
-                    <li><a href="#">Customer Experience Management</a></li>
-                    <li><a href="#">Rich Communication Suite (RCS)</a></li>
-                    <li><a href="#">Social Media</a></li>
-                    <li><a href="#">4G/LTE</a></li>
-                </ul>
-            </div>
-            <div class="subjects">
-                <h2>PRODUCTS & SERVICES</h2>
-                <ul class="subjects-list">
-                    <li><a href="#">Billing</a></li>
-                    <li><a href="#">VAS</a></li>
-                    <li><a href="#">Mobile Internet</a></li>
-                    <li><a href="#">Global Services</a></li>
-                    <li><a href="#">Training  </a></li>
-                </ul>
-            </div>
-            <div class="subjects">
-                <h2>COMPANY</h2>
-                <ul class="subjects-list">
-                    <li><a href="#">Executive Profiles</a></li>
-                    <li><a href="#">Clients</a></li>
-                    <li><a href="#">Investors</a></li>
-                    <li><a href="#">Partners</a></li>
-                    <li><a href="#">Corporate Responsibility</a></li>
-                    <li><a href="#">Industry Involvement</a></li>
-                    <li><a href="#">Careers</a></li>
-                </ul>
-            </div>
-            <aside>
-                <h2>LATEST BLOG POSTS</h2>
-                <div class="latest-blog-posts">
-                    <time datetime="2016-09-04 20:00" class="blog-posts-date">
-                        <div class="blog-posts-day">18</div>
-                        <div class="blog-posts-month">July</div>
-                    </time>
-                    <p class="blog-posts-paragraph">Comverse Regains Lead in Convergent Charging Marget</p>
-                </div>
-                <div class="subscribe">
-                    <h2>Subscribe to Comverse</h2>
-                    <form class="subscribe-form">
-                        <input type="email" placeholder="email address" class="subscribe-mail" />
-                        <input type="submit" value="SIGN UP" class="subscribe-submit"/>
-                    </form>
-                </div>
-                <div class="social-networks">
-                    <ul>
-                        <li><a href="#">
-                            <img src="img/socialMenuIcon-youtube.png" alt="youtube" class="youtube">
-                        </a></li>
-                        <li><a href="#">
-                            <img src="img/socialMenuIcon-twitter.png" alt="twitter" class="twitter">
-                        </a></li>
-                        <li><a href="#">
-                            <img src="img/socialMenuIcon-linkdin.png" alt="linkdin" class="linkedin">
-                        </a></li>
+            <div class="standard-footer">
+                <div class="subjects">
+                    <h2>KEY SOLUTIONS</h2>
+                    <ul class="subjects-list">
+                        <li><a href="#">Monetizing data</a></li>
+                        <li><a href="#">Over the Top (OTT)</a></li>
+                        <li><a href="#">Machine to Machine (M2M)</a></li>
+                        <li><a href="#">Cloud Computing</a></li>
+                        <li><a href="#">Managed Services</a></li>
+                        <li><a href="#">Customer Experience Management</a></li>
+                        <li><a href="#">Rich Communication Suite (RCS)</a></li>
+                        <li><a href="#">Social Media</a></li>
+                        <li><a href="#">4G/LTE</a></li>
                     </ul>
                 </div>
-            </aside>
-            <p class="copyrights">Copyright 2012 Comverse, Inc. | <a href="#">Privacy Policy</a></p>
+                <div class="subjects">
+                    <h2>PRODUCTS &amp; SERVICES</h2>
+                    <ul class="subjects-list">
+                        <li><a href="#">Billing</a></li>
+                        <li><a href="#">VAS</a></li>
+                        <li><a href="#">Mobile Internet</a></li>
+                        <li><a href="#">Global Services</a></li>
+                        <li><a href="#">Training  </a></li>
+                    </ul>
+                </div>
+                <div class="subjects">
+                    <h2>COMPANY</h2>
+                    <ul class="subjects-list">
+                        <li><a href="#">Executive Profiles</a></li>
+                        <li><a href="#">Clients</a></li>
+                        <li><a href="#">Investors</a></li>
+                        <li><a href="#">Partners</a></li>
+                        <li><a href="#">Corporate Responsibility</a></li>
+                        <li><a href="#">Industry Involvement</a></li>
+                        <li><a href="#">Careers</a></li>
+                    </ul>
+                </div>
+                <aside>
+                    <h2>LATEST BLOG POSTS</h2>
+                    <div class="latest-blog-posts">
+                        <time datetime="2016-09-04 20:00" class="blog-posts-date">
+                            <div class="blog-posts-day">18</div>
+                            <div class="blog-posts-month">July</div>
+                        </time>
+                        <p class="blog-posts-paragraph">Comverse Regains Lead in Convergent Charging Marget</p>
+                    </div>
+                    <div class="subscribe">
+                        <h2>Subscribe to Comverse</h2>
+                        <form class="subscribe-form">
+                            <input type="email" placeholder="email address" class="subscribe-mail" />
+                            <input type="submit" value="SIGN UP" class="subscribe-submit"/>
+                        </form>
+                    </div>
+                    <div class="social-networks">
+                        <ul>
+                            <li><a href="#">
+                                <img src="img/socialMenuIcon-youtube.png" alt="youtube" class="youtube">
+                            </a></li>
+                            <li><a href="#">
+                                <img src="img/socialMenuIcon-twitter.png" alt="twitter" class="twitter">
+                            </a></li>
+                            <li><a href="#">
+                                <img src="img/socialMenuIcon-linkdin.png" alt="linkdin" class="linkedin">
+                            </a></li>
+                        </ul>
+                    </div>
+                </aside>
+                <p class="copyrights">Copyright 2012 Comverse, Inc. | <a href="#">Privacy Policy</a></p>
+            </div>
+            <div class="mobile-footer">
+                <ul class="mobile-footer-menu">
+                    <li>Contact us</li>
+                    <li>Subscribe to comverse news</li>
+                    <li class="social-networks">
+                        <ul>
+                            <li>Visit us on:</li>
+                            <li><a href="#">
+                                <img src="img/socialMenuIcon-youtube.png" alt="youtube" class="youtube">
+                            </a></li>
+                            <li><a href="#">
+                                <img src="img/socialMenuIcon-twitter.png" alt="twitter" class="twitter">
+                            </a></li>
+                            <li><a href="#">
+                                <img src="img/socialMenuIcon-linkdin.png" alt="linkdin" class="linkedin">
+                            </a></li>
+                        </ul>
+                    </li>
+                    <li>Change language:
+                        <select class="mobile-language-bar" name="">
+                            <option value="English">English</option>
+                            <option value="Hebrew">Hebrew</option>
+                        </select>
+                    </li>
+                    <li>Copyright 2012 Comverse, Inc. | <a href="#">Privacy Policy</a> | <a href="#">Sitemap</a></li>
+                </ul>
+
+            </div>
         </div>
     </footer>
 </body>
