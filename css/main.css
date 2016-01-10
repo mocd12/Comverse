@@ -1,4 +1,4 @@
-article, aside, footer, main, section, form, ul {
+article, aside, footer, main, section, form, ul, time > span {
     display: block;
 }
 
@@ -31,6 +31,11 @@ article, aside, footer, main, section, form, ul {
     float: left;
     background: white url(../img/divider.png) right center no-repeat;
     padding: 0 10px 0 10px;
+}
+
+.login-list-item >a:hover, .login-list-item >select:hover, .subjects-list>li:hover, .copyrights > a:hover {
+    text-decoration: underline;
+    cursor: pointer;
 }
 
 .login-list{
@@ -66,7 +71,7 @@ article, aside, footer, main, section, form, ul {
     cursor: pointer;
 }
 
-.last-li {
+.no-line {
     background: none !important;
 }
 
@@ -109,11 +114,11 @@ article, aside, footer, main, section, form, ul {
     border-radius: 2px;
     margin-right: 8px;
     box-shadow: 0 1px 3px 0 grey;
+    cursor: pointer;
 }
 
 .active-slide-button{
     background-color: #2E94C8 !important;
-
 }
 
 .btn-learn-more{
@@ -316,6 +321,10 @@ article, aside, footer, main, section, form, ul {
     border-radius: 3px;
 }
 
+.events-box:last-child{
+    margin-right: 0;
+}
+
 .news-box p, .events-box p{
     width: 14em;
     color: #000;
@@ -418,6 +427,11 @@ article, aside, footer, main, section, form, ul {
     text-align: left;
 }
 
+.story-row>a{
+    text-decoration: none;
+    color: #000;
+}
+
 .last-row {
     width: 230px;
     margin-right: 0;
@@ -430,6 +444,25 @@ article, aside, footer, main, section, form, ul {
     margin: 0 0 10px 0;
     width: auto;
     height: 175px;
+    position: relative;
+    z-index: 0;
+}
+
+.success-story-box:before{
+    background: #3398CC url("../img/logos_generic_2nd_side_cut_02_w108px_x_h95px.jpg") center center no-repeat;
+    content: "";
+    width: 100%;
+    height: 0;
+    transition: height 0.4s ease-in;
+    display: block;
+    top:0;
+    left:0;
+    position: absolute;
+    z-index: 900;
+}
+
+.success-story-box:hover:before{
+    height:100%;
 }
 
 .story{
@@ -484,10 +517,10 @@ article, aside, footer, main, section, form, ul {
 
 .companies-logos > li{
     display: inline-block;
+    float: left;
     width: 110px;
     height: 100px;
     border-radius: 2px;
-    float: left;
     margin: 0 10px 0 0;
 }
 
@@ -502,8 +535,24 @@ article, aside, footer, main, section, form, ul {
 
 .company-logo{
     text-align: center;
-    -webkit-filter: grayscale(100%);
 }
+
+.company-logo:after{
+    background: #3398CC url("../img/logos_generic_2nd_side_cut_02_w108px_x_h95px.jpg") center center no-repeat;
+    content: "";
+    width: 100%;
+    height: 0;
+    transition: height 0.4s ease-in;
+    display: block;
+    bottom:0;
+    left: 0;
+    position: relative;
+}
+
+.company-logo:hover:after{
+    height: 100%;
+}
+
 .cycle30{
     background: white url("../img/cycle30.png") center center no-repeat;
 }
@@ -583,7 +632,13 @@ footer aside{
     color: rgb(113, 113, 113);
 }
 
-.copyrights > a {
+.copyrights > span, .mobile-copyrights span{
+    border-right: rgb(113, 113, 113) solid 1px ;
+    padding-right: 0.8em;
+    margin-right: 0.8em;
+}
+
+.copyrights > a, .copyrights a {
     text-decoration: none;
     color: rgb(113, 113, 113)
 }
@@ -626,6 +681,7 @@ aside h2 {
 .latest-blog-posts{
     border-bottom: 1px solid rgb(106, 106, 106);
     margin: 1em;
+    color: white;
 }
 
 .subscribe{
@@ -713,7 +769,7 @@ li{
     display: list-item;
 }
 
-li>a{
+li>a, li>span>a{
     text-decoration: none;
     color: black;
 }
@@ -735,6 +791,6 @@ footer{
 /*Mobile*/
 .mobile-search,.mobile-search-icon, .mobile-main-nav-list, .mobile-search-form, .mobile-header-background,
 .mobile-bullets, .promotion-arrow, .mobile-footer, .mobile-logo, .mobile-menu-items, .mobile-menu, .mobile-menu-icon,
-.back-to-top{
+.back-to-top, .hidden-label{
     display: none;
 }

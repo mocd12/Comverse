@@ -14,50 +14,56 @@
         <div class="content-wrapper">
             <ul class="login-list">
                 <li class="login-list-item">
+                    <label class= "hidden-label" for="lang">language bar</label>
                     <select name="language" id="lang" class="language-menu">
                         <option value="English">EN</option>
                         <option value="עברית">ע</option>
                     </select>
                 </li>
-                <li class="login-list-item last-li"><a href="#">Costumer login</a></li>
+                <li class="login-list-item no-line"><a href="#">Costumer login</a></li>
             </ul>
             <a class="logo" href="">
                 <img src="img/comverse-logo.png" alt="Comverse Logo">
             </a>
             <a id="mobile-logo" class="mobile-logo" href="">
-                <img src="img/comverse-logo-medium.png" alt="Comverse logo"><!---->
+                <img src="img/comverse-logo-medium.png" alt="Comverse logo">
             </a>
             <nav class="main-nav-list">
                 <ul>
                     <li class="main-nav"><a href="#">YOUR NEEDS</a></li>
                     <li class="main-nav"><a href="#">OUR PORTFOLIO</a></li>
                     <li class="main-nav"><a href="#">NEWS &amp; MEDIA</a></li>
-                    <li class="main-nav last-li"><a href="#">ABOUT COMVERSE</a></li>
+                    <li class="main-nav no-line"><a href="#">ABOUT COMVERSE</a></li>
                 </ul>
             </nav>
 
-            <label class="mobile-menu-icon" for="mobile-menu"><img src="img/hamburger-icon.png" alt="mobile menu"></label><!---->
-            <input type="checkbox" id="mobile-menu" class="mobile-menu"><!---->
+            <label class="mobile-menu-icon" for="mobile-menu"><img src="img/hamburger-icon.png" alt="mobile menu"></label>
+            <input type="checkbox" id="mobile-menu" class="mobile-menu">
 
             <ul class="mobile-menu-items">
                 <li class="mobile-nav-item"><a href="#">YOUR NEEDS</a></li>
                 <li class="mobile-nav-item"><a href="#">OUR PORTFOLIO</a></li>
                 <li class="mobile-nav-item"><a href="#">NEWS &amp; MEDIA</a></li>
-                <li class="mobile-nav-item last-li"><a href="#">ABOUT COMVERSE</a></li>
+                <li class="mobile-nav-item no-line"><a href="#">ABOUT COMVERSE</a></li>
             </ul>
 
-            <label class="mobile-search-icon" for="mobile-search"><img src="img/searchBtnMobile.png" alt="mobile search"></label><!---->
-            <input type="checkbox" id="mobile-search" class="mobile-search"><!---->
+            <label class="mobile-search-icon" for="mobile-search"><img src="img/searchBtnMobile.png" alt="mobile search"></label>
+            <input type="checkbox" id="mobile-search" class="mobile-search">
 
-
+            <label class="hidden-label" for="mobile-search-form">search form</label>
             <form id ="mobile-search-form" action="" title="form" class="mobile-search-form">
-                <input type="search" class="search-line"/>
-                <input type="submit" name="submit" value="" class="submit-button"/>
+                <label class="hidden-label" for="mobile-search-line">search line</label>
+                <input id="mobile-search-line" type="search" class="search-line"/>
+                <label class="hidden-label" for="mobile-search-submit">search submit</label>
+                <input id="mobile-search-submit" type="submit" name="submit" value="" class="submit-button"/>
             </form>
 
+            <label class="hidden-label" for="search-form">search form</label>
             <form id ="search-form" action="" title="form" class="search-form">
-                <input type="search" class="search-line"/>
-                <input type="submit" name="submit" value="" class="submit-button"/>
+                <label class="hidden-label" for="search-line">search line</label>
+                <input id="search-line" type="search" class="search-line"/>
+                <label class="hidden-label" for="search-submit">search submit</label>
+                <input id="search-submit" type="submit" name="submit" value="" class="submit-button"/>
             </form>
         </div>
     </header>
@@ -171,7 +177,7 @@
                     <li class="news-box">
                         <article>
                             <time datetime="2016-09-04 20:00" class="date">
-                                <div class="day">04</div> <div class="month">Sep</div>
+                                <span class="day">04</span> <span class="month">Sep</span>
                             </time>
                             <p>Comverse Regains Lead in Convergent Charging Market Regains Lead in</p>
                         </article>
@@ -185,7 +191,7 @@
                     <li class="events-box">
                         <article>
                             <time datetime="2016-09-04 20:00" class="date">
-                                <div class="day">04</div> <div class="month">Sep</div>
+                                <span class="day">04</span> <span class="month">Sep</span>
                             </time>
                             <p>Comverse Regains Lead in Convergent Charging Market Regains Lead in</p>
                         </article>
@@ -194,7 +200,7 @@
                     <li class="events-box">
                         <article>
                             <time datetime="2016-09-04 20:00" class="date">
-                                <div class="day">04</div> <div class="month">Sep</div>
+                                <span class="day">04</span> <span class="month">Sep</span>
                             </time>
                             <p>Comverse Regains Lead in Convergent Charging Market Regains Lead in</p>
                         </article>
@@ -208,7 +214,7 @@
         <div class="content-wrapper">
             <h2>SUCCESS STORIES</h2>
             <div class="story-row">
-                <article class="success-story-box">
+                <a href="#"><article class="success-story-box">
                     <div class="story">
                         <img src="img/person2.png" alt="Sergey Korotych">
                         <p class="big-paragraph">
@@ -221,20 +227,20 @@
                         <h3>SERGEY KOROTYCH</h3>
                         <p>Deputy CTO, 3 Mob Ukraine</p>
                     </div>
-                </article>
+                </article></a>
                 <ul class="companies-logos">
-                    <li class="cycle30 company-logo"></li>
-                    <li class="bull company-logo"></li>
-                    <li class="gemplus company-logo"></li>
+                    <li class="cycle30 company-logo"><a href="#"></a></li>
+                    <li class="bull company-logo"><a href="#"></a></li>
+                    <li class="gemplus company-logo"><a href="#"></a></li>
                 </ul>
             </div>
             <div class="story-row">
                 <ul class="companies-logos">
-                    <li class="mtc company-logo"></li>
-                    <li class="cable-and-wireless company-logo"></li>
-                    <li class="trilogy company-logo"></li>
+                    <li class="mtc company-logo"><a href="#"></a></li>
+                    <li class="cable-and-wireless company-logo"><a href="#"></a></li>
+                    <li class="trilogy company-logo"><a href="#"></a></li>
                 </ul>
-                <article class="success-story-box">
+                <a href="#"><article class="success-story-box">
                     <div class="story">
                         <img src="img/person1.png" alt="Adale Kehasan">
                         <p class="small-paragraph">
@@ -246,10 +252,10 @@
                         <h3>ADALE KEHASAN</h3>
                         <p>CIO of Multi-links</p>
                     </div>
-                </article>
+                </article></a>
             </div>
             <div class="story-row last-row">
-                <article class="success-story-box">
+                <a href="#"><article class="success-story-box">
                     <div class="story">
                         <p class="big-paragraph">
                             <img src="img/quote-grey.png" alt="quotation-mark">
@@ -261,10 +267,10 @@
                         <h3>RAVISHANKER</h3>
                         <p>Tata Sky CIO N.</p>
                     </div>
-                </article>
+                </article></a>
                 <ul class="companies-logos">
-                    <li class="hp company-logo"></li>
-                    <li class="atos company-logo"></li>
+                    <li class="hp company-logo"><a href="#"></a></li>
+                    <li class="atos company-logo"><a href="#"></a></li>
                 </ul>
             </div>
             <button class="btn-learn-more">
@@ -316,13 +322,15 @@
                 </div>
                 <aside>
                     <h2>LATEST BLOG POSTS</h2>
-                    <div class="latest-blog-posts">
-                        <time datetime="2016-09-04 20:00" class="blog-posts-date">
-                            <div class="blog-posts-day">18</div>
-                            <div class="blog-posts-month">July</div>
-                        </time>
-                        <p class="blog-posts-paragraph">Comverse Regains Lead in Convergent Charging Marget</p>
-                    </div>
+                    <a href="#">
+                        <div class="latest-blog-posts">
+                            <time datetime="2016-09-04 20:00" class="blog-posts-date">
+                                <span class="blog-posts-day">18</span>
+                                <span class="blog-posts-month">July</span>
+                            </time>
+                            <p class="blog-posts-paragraph">Comverse Regains Lead in Convergent Charging Marget</p>
+                        </div>
+                    </a>
                     <div class="subscribe">
                         <h2>Subscribe to Comverse</h2>
                         <form class="subscribe-form">
@@ -344,7 +352,7 @@
                         </ul>
                     </div>
                 </aside>
-                <p class="copyrights">Copyright 2012 Comverse, Inc. | <a href="#">Privacy Policy</a></p>
+                <p class="copyrights"><span>Copyright 2012 Comverse, Inc.</span><a href="#">Privacy Policy</a></p>
             </div>
             <div class="mobile-footer">
                 <ul class="mobile-footer-menu">
@@ -365,12 +373,13 @@
                         </ul>
                     </li>
                     <li>Change language:
-                        <select class="mobile-language-bar" name="">
+                        <label class="hidden-label" for="mobile-lang">language bar</label>
+                        <select id ="mobile-lang" class="mobile-language-bar" name="">
                             <option value="English">English</option>
                             <option value="Hebrew">Hebrew</option>
                         </select>
                     </li>
-                    <li>Copyright 2012 Comverse, Inc. | <a href="#">Privacy Policy</a> | <a href="#">Sitemap</a></li>
+                    <li class="mobile-copyrights"><span>Copyright 2012 Comverse, Inc.</span><span><a href="#">Privacy Policy</a></span><a href="#">Sitemap</a></li>
                 </ul>
 
             </div>
