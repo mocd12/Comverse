@@ -25,11 +25,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.18783069">
-              <caret line="322" column="22" selection-start-line="322" selection-start-column="17" selection-end-line="322" selection-end-column="22" />
+            <state vertical-scroll-proportion="-10.119403">
+              <caret line="206" column="51" selection-start-line="206" selection-start-column="43" selection-end-line="206" selection-end-column="51" />
               <folding>
                 <element signature="n#div#1;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#2;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -48,11 +48,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="main.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.4626865">
-              <caret line="641" column="15" selection-start-line="641" selection-start-column="15" selection-end-line="641" selection-end-column="15" />
+            <state vertical-scroll-proportion="0.051282052">
+              <caret line="374" column="0" selection-start-line="374" selection-start-column="0" selection-end-line="375" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -92,10 +92,10 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-9" />
-    <option name="y" value="-9" />
-    <option name="width" value="1938" />
-    <option name="height" value="1048" />
+    <option name="x" value="328" />
+    <option name="y" value="75" />
+    <option name="width" value="1598" />
+    <option name="height" value="838" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -313,14 +313,20 @@
       <option name="project" value="LOCAL" />
       <updated>1452450551388</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="minor design improvements&#10;">
+      <created>1452451361127</created>
+      <option name="number" value="00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1452451361127</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
+    <frame x="328" y="75" width="1598" height="838" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13998944" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17063747" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3084112" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19934641" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
@@ -364,7 +370,8 @@
     <MESSAGE value="mobile adaptation&#10;" />
     <MESSAGE value="minor fixes add &quot;back to top&quot; arrow&#10;" />
     <MESSAGE value="add transitions, change things according to the checklist.&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="add transitions, change things according to the checklist.&#10;" />
+    <MESSAGE value="minor design improvements&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="minor design improvements&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -566,14 +573,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.4626865">
-          <caret line="641" column="15" selection-start-line="641" selection-start-column="15" selection-end-line="641" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/mobile.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-3.761194">
@@ -584,12 +583,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.18783069">
-          <caret line="322" column="22" selection-start-line="322" selection-start-column="17" selection-end-line="322" selection-end-column="22" />
+        <state vertical-scroll-proportion="-10.119403">
+          <caret line="206" column="51" selection-start-line="206" selection-start-column="43" selection-end-line="206" selection-end-column="51" />
           <folding>
             <element signature="n#div#1;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#2;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.051282052">
+          <caret line="374" column="0" selection-start-line="374" selection-start-column="0" selection-end-line="375" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>

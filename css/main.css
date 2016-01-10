@@ -368,6 +368,7 @@ article, aside, footer, main, section, form, ul, time > span {
     font-size: 0.8em;
     display: inline-block;
     color: #FFF;
+    float: left;
 }
 
 .calendar::before{
@@ -389,6 +390,7 @@ article, aside, footer, main, section, form, ul, time > span {
     font-size: 0.8em;
     display: inline-block;
     color: #FFF;
+    float: left;
 }
 
 .newspaper::before{
