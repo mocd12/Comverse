@@ -427,7 +427,7 @@ article, aside, footer, main, section, form, ul, time > span {
     text-align: left;
 }
 
-.story-row>a{
+.story-row>a, li>a, li>span>a{
     text-decoration: none;
     color: #000;
 }
@@ -655,6 +655,10 @@ aside h2 {
     font-size: 1.4em;
 }
 
+aside > a {
+    text-decoration: none;
+}
+
 .blog-posts-date{
     float: left;
     margin-right: 20px;
@@ -767,11 +771,6 @@ header{
 
 li{
     display: list-item;
-}
-
-li>a, li>span>a{
-    text-decoration: none;
-    color: black;
 }
 
 section h2 {
