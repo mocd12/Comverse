@@ -369,6 +369,7 @@ article, aside, footer, main, section, form, ul, time > span {
     display: inline-block;
     color: #FFF;
     float: left;
+    margin-top: 2px;
 }
 
 .calendar::before{
@@ -391,6 +392,7 @@ article, aside, footer, main, section, form, ul, time > span {
     display: inline-block;
     color: #FFF;
     float: left;
+    margin-top: 2px;
 }
 
 .newspaper::before{
@@ -599,7 +601,7 @@ footer > .content-wrapper{
 .subjects{
     display: inline-block;
     float: left;
-    margin-right: 60px;
+    margin-right: 55px;
     padding-top: 10px
 }
 
